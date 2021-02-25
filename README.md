@@ -7,5 +7,5 @@ te raden, wint zij. Lukt dat niet, heeft speler 1 gewonnen. Na elke vraag geeft
 het systeem feedback die de accuratie van de gok bevat. Benut de feedback goed!
 Je kan ervoor kiezen om te spelen als speler 1 of als speler 2.
 
-CONTROLS
+CONTROLS: 
 De combinatie wordt getypt vier letters. Bijvoorbeeld: "RBGP".
