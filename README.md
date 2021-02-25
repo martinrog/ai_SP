@@ -8,4 +8,4 @@ het systeem feedback die de accuratie van de gok bevat. Benut de feedback goed!
 Je kan ervoor kiezen om te spelen als speler 1 of als speler 2.
 
 CONTROLS: 
-De combinatie wordt getypt vier letters. Bijvoorbeeld: "RBGP".
+De combinatie wordt getypt vier letters. Bijvoorbeeld: "RBGP" (wat staat voor "rood,blauw,groen,paars").
