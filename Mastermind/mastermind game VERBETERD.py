@@ -96,6 +96,19 @@ def spel1():
           "-------------------------------------------------------------------------------")
     spel1()
 
+def keuzeAlgo(code):
+    keuze = int(input("                     Kies je strategie (1, 2 of 3):\n"
+                      "                         Simple strategy (1)\n"
+                      "                         Worst Case strategy (2)\n"
+                      "                         Own strategy (3)"))
+    if keuze == 1:
+        SimpleAlgo(code)
+    elif keuze == 2:
+        WorstCase(code)
+    elif keuze == 3:
+        OwnStrategy(code)
+
+
 def spel2():
     """Deze functie start het spel waar de computer tegen jou speelt, waar de computer gaat gokken"""
 
@@ -104,7 +117,8 @@ def spel2():
                                "                   ROOD, BLAUW, GROEN, PAARS, ORANJE, WIT\n"
                                "\n"
                                "                   Geef hier je combinatie (4 karakters): ").upper()
-    OwnStrategy(code)
+    keuzeAlgo(code)
+
 
 def alle_combinaties():
     """Deze functie genereert alle combinaties"""
